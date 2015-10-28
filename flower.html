@@ -1,0 +1,23 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Flower Catalog</title>
+</head>
+<body>
+	<img src="freshorigins.jpg"  width="80%"></img>
+	<a href="Abeliophyllum.html" style="position:absolute; top:100px">Abeliophyllum </a><br>
+	<a href="Ageratum.html" style="position:absolute; left:1165px;top:150px;">Ageratum </a>
+	<a href="Abeliophyllum.html" style="position:absolute;left:1165px;top:300px; ">guest book </a>
+	<img src="pot.gif" id="visibility" style="position:absolute;left:1165px;top:200px;" onclick="disappear()" />
+	<script type="text/javascript">
+	function disappear(){
+		document.getElementById("visibility").style.display='none';
+		setTimeout('appear()',1000)
+	}
+	function appear(){
+		document.getElementById("visibility").style.display='inline';
+	}
+	</script>
+
+</body>
+</html> 
